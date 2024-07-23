@@ -23,9 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.MenuCardView.setOnClickListener(){
-
             val intent = Intent(this, AddItemActivity::class.java)
-
             startActivity(intent)
         }
         binding.AllItemMenuCardView.setOnClickListener(){

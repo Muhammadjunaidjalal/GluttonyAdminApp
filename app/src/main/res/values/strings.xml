@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AdminGluttony</string>
     <string name="appName">Gluttony</string>
+    <string name="default_web_client_id">233534657229-on9o075nn9grgn5rksnahc3csoip2u4t.apps.googleusercontent.com</string>
 </resources>

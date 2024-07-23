@@ -100,6 +100,7 @@
         android:outlineAmbientShadowColor="@color/textColor"
         android:hint="Email"
         android:padding="15dp"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/RestaurantNameEditText"
         app:layout_constraintStart_toStartOf="@+id/RestaurantNameEditText"
         app:layout_constraintTop_toBottomOf="@+id/RestaurantNameEditText" />
@@ -132,6 +133,7 @@
         android:hint="Password"
         android:outlineAmbientShadowColor="@color/textColor"
         android:padding="15dp"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/SignUpEmailEditText"
         app:layout_constraintStart_toStartOf="@+id/SignUpEmailEditText"
         app:layout_constraintTop_toBottomOf="@+id/SignUpEmailEditText" />

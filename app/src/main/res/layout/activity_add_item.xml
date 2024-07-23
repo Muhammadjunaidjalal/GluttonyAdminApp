@@ -123,13 +123,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/cardView3" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/DescriptionEditText"
                 android:layout_width="0dp"
                 android:layout_height="57dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/edittextshape"
+                android:hint="Add Description"
                 android:paddingLeft="15dp"
-                android:text="Desciption"
                 app:layout_constraintEnd_toEndOf="@+id/SelectImageTextView"
                 app:layout_constraintStart_toStartOf="@+id/textView9"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -143,7 +143,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/SelectImageTextView"
-                app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+                app:layout_constraintTop_toBottomOf="@+id/DescriptionEditText" />
 
             <EditText
                 android:id="@+id/IngredientsEditText"
@@ -151,8 +151,8 @@
                 android:layout_height="57dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/edittextshape"
+                android:hint="Add Ingredients"
                 android:paddingLeft="15dp"
-                android:text="Ingredient 1\nIngredient 2"
                 app:layout_constraintEnd_toEndOf="@+id/SelectImageTextView"
                 app:layout_constraintStart_toStartOf="@+id/textView9"
                 app:layout_constraintTop_toBottomOf="@+id/IngredientsTextView" />
